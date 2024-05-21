@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/AJTECH/Desktop/web%20development/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            background-color: purple;
+        }
+        .container{
+            background-color: purple;
+            display: grid;
+            height: 400px;
+            width: 500px;
+            margin: auto;
+            margin-top: 100px;
+            margin-left: 130px;
+           grid-template-columns: auto auto;
+            grid-template-rows: auto 180px auto;
+        }
+        .items{
+            background-color: blueviolet;
+            margin: 6px;
+          
+        }
+        .item1{
+            background-color: fuchsia;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .item2{
+            background-color: yellow;
+        }
+        .item3{
+            background-color: crimson;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .item4{
+            background-color: darkturquoise;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .container2{
+            background-color: purple;
+            display: grid;
+            height: 400px;
+            width: 500px;
+            margin: auto;
+            margin-top: -400px;
+            margin-right: 130px;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto 100px auto auto;
+        }
+        .itemss{
+            background-color: azure;
+            margin: 6px;
+        }
+    .item11{
+        background-color: crimson;
+    }
+    .item77{
+        background-color: fuchsia;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .item22{
+        background-color: darkturquoise;
+    }
+    .item33{
+        background-color: darkturquoise;
+    }
+    .item44{
+        background-color: yellow;
+    }
+    .item55{
+        background-color: yellow;
+    }
+    .item66{
+        background-color: crimson;
+    }
+    .div{
+        color: white;
+        text-align: center;
+        font-size: 70px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1"></div>
+        <div class="items item2"></div>
+        <div class="items item3"></div>
+        <div class="items item4"></div>
+    </div>
+
+    <div class="container2">
+        <div class="itemss item11"></div>
+        <div class="itemss item22"></div>
+        <div class="itemss item33"></div>
+        <div class="itemss item44"></div>
+        <div class="itemss item55"></div>
+        <div class="itemss item66"></div>
+        <div class="itemss item77"></div>
+    </div>
+    <div class="div">
+        <h1>CSS FLEX BOX</h1>
+    </div>
+
+</body></html>
